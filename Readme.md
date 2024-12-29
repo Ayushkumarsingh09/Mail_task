@@ -46,16 +46,15 @@ To showcase the functionality, mock APIs are used to simulate the required backe
 ## Installation and Setup
 
 ### Install Dependencies
-```bash
+
 npm install
 ### Steps to Run Locally
 1. Clone the repository:
-   ```bash
+   
    git clone https://github.com/Ayushkumarsingh09/Mail_task.git && cd Mail_task
 
 Start the Application
-bash
-Copy code
+
 npm run dev
 The app will be hosted locally at http://localhost:3000.
 
@@ -71,21 +70,5 @@ Description: Returns a list of recipient groups (id, name).
 CRUD Operations for Mailings
 Endpoint: /api/mailings
 Description: Supports GET, POST, PUT, and DELETE.
-Directory Structure
-bash
-Copy code
-Mail_task/
-├── components/      # Reusable UI components
-├── pages/           # Next.js pages
-│   ├── index.js     # Homepage listing scheduled mailings
-│   ├── create.js    # Page for creating new mailings
-│   └── api/         # Mock API endpoints
-├── styles/          # Styling files
-├── utils/           # Utility functions
-└── README.md        # Project documentation
-Deployment
-To make the app publicly accessible:
-Deploy the application on Vercel.
-Configure the project for automatic deployment from the GitHub repository.
-Repository
-GitHub Link: Mail_task
+
+
